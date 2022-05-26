@@ -83,6 +83,7 @@ const { state, saveState } = useSingleFileAuthState(global.authFile)
 const connectionOptions = {
   printQRInTerminal: true,
   auth: state,
+  downloadHistory: false
   // logger: P({ level: 'trace' })
 }
 
