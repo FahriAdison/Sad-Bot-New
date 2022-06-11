@@ -5,6 +5,7 @@ import { watchFile, unwatchFile } from 'fs'
 global.owner = [
   ['+62 852-4075-0713'],
   ['+62 813-6306-4991'],
+  ['1 437 500-4991'],
   ['+212 706-611366', 'Ripp', true],
   ['+687 82.79.06', 'LitRHap', true]
   // [number, dia creator/owner?, dia developer?]
