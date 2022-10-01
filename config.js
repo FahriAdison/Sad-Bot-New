@@ -3,15 +3,15 @@ import { fileURLToPath } from 'url'
 import { watchFile, unwatchFile } from 'fs'
 
 global.owner = [
-  ['+62 852-4075-0713'],
-  ['+62 813-6306-4991'],
-  ['1 437 500-4991'],
-  ['+212 706-611366', 'Ripp', true],
-  ['+687 82.79.06', 'LitRHap', true]
+  ['+62 822-8721-9167'],
+  ['+62 895-6121-53565'],
+  ['+62 822-8721-9167', 'Papah-Chan', true],
+  ['+62 895-6121-53565', 'Johannes', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
+global.wm = ["New Base Papah-Chan"]
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
