@@ -48,6 +48,54 @@ global.author = ''
 
 global.multiplier = 69 // The higher, The harder levelup
 
+global.rpg = {
+  emoticon(string) {
+    string = string.toLowerCase()
+    let emot = {
+      bibitanggur: '🍇',
+      bibitpisang: '🍌',
+      bibitjeruk: '🍊',
+      bibitapel: '🍎',
+      bibitmangga: '🥭',
+      level: '📊',
+      limit: '🎫',
+      health: '❤️',
+      exp: '✨',
+      money: '💹',
+      bank: '🏦',
+      potion: '🥤',
+      diamond: '💎',
+      common: '📦',
+      uncommon: '🛍️',
+      mythic: '🎁',
+      legendary: '🗃️',
+      superior: '💼',
+      pet: '🔖',
+      trash: '🗑',
+      armor: '🥼',
+      sword: '⚔️',
+      pickaxe: '⛏️',
+      fishingrod: '🎣',
+      wood: '🪵',
+      rock: '🪨',
+      string: '🕸️',
+      horse: '🐴',
+      cat: '🐱',
+      dog: '🐶',
+      fox: '🦊',
+      petFood: '🍖',
+      iron: '⛓️',
+      gold: '🪙',
+      emerald: '❇️',
+      upgrader: '🧰'
+      
+    }
+    let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+    if (!results.length) return ''
+    else return emot[results[0][0]]
+  }
+}
+
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
   unwatchFile(file)
