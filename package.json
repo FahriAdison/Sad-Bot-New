@@ -36,7 +36,7 @@
         "url": "git+https://github.com/FahriAdison/New-Sad-Bot",
     },
     "bugs": {
-        "url": "https://github.com/FahriAdison/New-Sad-Bot/issues"
+        "url": "https://github.com/FahriAdison/New-Sad-Bot/issues",
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
