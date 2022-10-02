@@ -72,9 +72,9 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 `.trim(), "Bot Papah-Chan",
 [`ᴅᴏɴᴀᴛᴇ`, `${usedPrefix}donate`], m, { viewOnce: true})
 }
-handler.help = ['botinfo']
+handler.help = ['ping','speed']
 handler.tags = ['info']
-handler.command = /^(botinfo|bot|info|bi)$/i
+handler.command = /^(ping|speed)$/i
 
 export default handler
 
