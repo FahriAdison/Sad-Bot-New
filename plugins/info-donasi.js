@@ -1,4 +1,4 @@
-importir fetch from 'node-fetch'
+import fetch from 'node-fetch'
 let handler = async (m, { conn }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 let pepe = pp ? await (await fetch(pp)).buffer() : Buffer.alloc(0)
