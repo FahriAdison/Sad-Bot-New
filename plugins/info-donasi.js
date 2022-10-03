@@ -10,7 +10,7 @@ Setelah melakukan donasi kirim bukti pembayaran ke owner,Dengan melakukan donasi
 `
 conn.sendHydrated(m.chat, str, wm, pepe, 'https://github.com/FahriAdison/', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄', '/menu']
-], m, [ viewOnce: true })
+], m, { viewOnce: true })
 
 }
 handler.help = ['donasi']
