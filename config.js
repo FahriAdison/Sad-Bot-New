@@ -1,6 +1,7 @@
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import { watchFile, unwatchFile } from 'fs'
+import moment from 'moment-timezone'
 
 global.owner = [
   ['+62 822-8721-9167'],
@@ -43,11 +44,69 @@ global.thumbnailUrl = [
   'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
 ]
 
+global.wm = '                「 ꜱᴀᴅ BOT あ⁩ 」' 
+
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+
+global.wm3 = '⫹⫺ ꜱᴀᴅ 𝗕𝗢𝗧'
+
+global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
+
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
+
+global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
+`
+
+global.author = '                「 ꜱᴀᴅ BOT あ⁩ 」'
+
 // Sticker WM
 global.packname = ''
 global.author = ''
 
+global.sgc = 'https://chat.whatsapp.com/Eo0rT2MCSiWIijy7fMHlB7'
+global.sig = 'https://instagram.com/bot_whangsaf'
+//========Url Template Buttons=========//
+global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
+global.urlnya = "https://www.instagram.com/bot_whangsaf"
+
+//============= callButtons =============//
+global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
+global.phn = '+62 822-8721-9167'
 global.multiplier = 69 // The higher, The harder levelup
+/*============== NOMOR ==============*/
+global.nomorbot = '66801944580'
+global.nomorown = '6282287219167'
+global.namebot = 'Sad-Bot'
+global.nameown = 'Papah-Chan'
+
+/*=========== FAKE SIZE ===========*/
+global.fsizedoc = '99999999999999' // default 10TB
+global.fpagedoc = '999'
+
+/*=========== HIASAN ===========*/
+// DEFAULT MENU
+global.dmenut = '❏═┅═━–〈' //top
+global.dmenub = '┊›' //body
+global.dmenub2 = '┊' //body for info cmd on Default menu
+global.dmenuf = '┗––––––––––✦' //footer
+
+// COMMAND MENU
+global.dashmenu = '┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅'
+global.cmenut = '❏––––––『' //top
+global.cmenuh = '』––––––' //header
+global.cmenub = '┊々 ' //body
+global.cmenuf = '┗━═┅═━––––––๑\n' //footer
+global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
+global.pmenus = '✦' //pembatas menu selector
+
+global.htki = '––––––『' //hiasan title kiri
+global.htka = '』––––––' //hiasan title kanan
+global.lopr = 'Ⓟ'
+global.lolm = 'Ⓛ'
+global.htjava = '⫹⫺' 
+global.hsquere = '⛶', '❏', '⫹⫺'
+global.l = '「'
+global.r = '」'
 
 global.rpg = {
   emoticon(string) {
