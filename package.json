@@ -63,6 +63,7 @@
         "formdata-node": "^4.3.2",
         "google-play-scraper": "^8.1.0",
         "human-readable": "^0.2.1",
+        "hxz-api": "^1.0.1",
         "insta-fetcher": "^1.3.20",
         "jimp": "^0.16.1",
         "jsdom": "^19.0.0",
