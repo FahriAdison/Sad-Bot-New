@@ -19,7 +19,7 @@ let teksbio = `*───────[ BIODATA OWNER ]───────*
 *🏮 Chanel Youtube* : Papah-Chan
 *🐈 Github:* FahriAdison
 `
-conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
+conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m, { viewOnce: m })
 }
 handler.help = ['bioowner']
 handler.tags = ['info']
