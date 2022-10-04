@@ -32,7 +32,7 @@ thumbnailUrl: 'https://i.waifu.pics/KcrOIYV.jpg',
 sellerJid: '0@s.whatsapp.net'}}}}
 if (command == 'playlist') {
 for (let i of search.all) {
-listSerch.push({title: i.title, description: `Autor: ${i.author.name} / ${i.timestamp}`, rowId: `${usedPrefix}ytmp3 ${i.url}`})} 
+listSerch.push({title: i.title, description: `Autor: ${i.author.name} / ${i.timestamp}`, rowId: `${usedPrefix}play ${i.url}`})} 
 conn.sendMessage(m.chat, listMessage, fake)}
 if (command == 'playlist2') {
 for (let i of search.all) {
